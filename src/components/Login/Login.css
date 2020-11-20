@@ -1,0 +1,26 @@
+.login {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png');
+}
+
+.login--title {
+    margin-bottom: 15px; 
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+.login button {
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #00bf45;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 40px;
+    border: none;
+}
